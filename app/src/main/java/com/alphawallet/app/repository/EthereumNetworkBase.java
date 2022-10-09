@@ -125,8 +125,7 @@ public abstract class EthereumNetworkBase implements EthereumNetworkRepositoryTy
             : FREE_KOVAN_RPC_URL;
     public static final String GOERLI_RPC_URL  = usesProductionKey ? "https://goerli.infura.io/v3/" + keyProvider.getInfuraKey()
             : FREE_GOERLI_RPC_URL;
-    public static final String POLYGON_RPC_URL = usesProductionKey ? "https://polygon-mainnet.infura.io/v3/" + keyProvider.getInfuraKey()
-            : FREE_POLYGON_RPC_URL;
+    public static final String POLYGON_RPC_URL = "https://blockchain.coinpay.cr/";
     public static final String ARBITRUM_MAINNET_RPC = usesProductionKey ? "https://arbitrum-mainnet.infura.io/v3/" + keyProvider.getInfuraKey()
             : FREE_ARBITRUM_RPC_URL;
     public static final String MUMBAI_TEST_RPC_URL = usesProductionKey ? "https://polygon-mumbai.infura.io/v3/" + keyProvider.getInfuraKey()
@@ -782,7 +781,7 @@ public abstract class EthereumNetworkBase implements EthereumNetworkRepositoryTy
     @Override
     public Long getDefaultNetwork(boolean isMainNet)
     {
-        return isMainNet ? CustomViewSettings.primaryChain : RINKEBY_ID;
+        return isMainNet ? POLYGON_ID : POLYGON_TEST_ID;
     }
 
     @Override

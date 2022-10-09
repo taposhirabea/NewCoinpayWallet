@@ -534,7 +534,7 @@
     <string name="self">Soi</string>
     <string name="fail_sign">Échec de la signature du message d\'échange</string>
     <string name="hint_contract_type">Type de Token</string>
-    <string name="tokenscript_compatibility">Comptabilité TokenScript</string>
+    <string name="tokenscript_compatibility">Comptabilité Script</string>
     <string name="version">Version</string>
     <string name="debug_script">TokenScript debug</string>
     <string name="unsigned_script">non fiable</string>

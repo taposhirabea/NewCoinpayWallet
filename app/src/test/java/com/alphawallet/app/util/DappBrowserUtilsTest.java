@@ -12,25 +12,25 @@ public class DappBrowserUtilsTest
     @Test
     public void testDefaultDapp()
     {
-        assertThat(DappBrowserUtils.defaultDapp(1L), equalTo("https://alphawallet.com/browser/"));
-        assertThat(DappBrowserUtils.defaultDapp(137L), equalTo("https://alphawallet.com/browser-item-category/polygon/"));
-        assertThat(DappBrowserUtils.defaultDapp(80001L), equalTo("https://alphawallet.com/browser-item-category/polygon/"));
+        assertThat(DappBrowserUtils.defaultDapp(1L), equalTo("https://coinpay.cr/"));
+        assertThat(DappBrowserUtils.defaultDapp(137L), equalTo("https://coinpay.cr/browser-item-category/polygon/"));
+        assertThat(DappBrowserUtils.defaultDapp(80001L), equalTo("https://coinpay.cr/browser-item-category/polygon/"));
     }
 
     @Test
     public void testIsDefaultDapp()
     {
-        assertTrue(DappBrowserUtils.isDefaultDapp("https://alphawallet.com/browser/"));
-        assertTrue(DappBrowserUtils.isDefaultDapp("https://alphawallet.com/browser-item-category/polygon/"));
+        assertTrue(DappBrowserUtils.isDefaultDapp("https://coinpay.cr"));
+        assertTrue(DappBrowserUtils.isDefaultDapp("https://coinpay.cr/browser-item-category/polygon/"));
         assertFalse(DappBrowserUtils.isDefaultDapp("https://app.1inch.finance/"));
     }
 
     @Test
     public void testIsWithinHomePage()
     {
-        assertTrue(DappBrowserUtils.isWithinHomePage("https://alphawallet.com/browser"));
-        assertTrue(DappBrowserUtils.isWithinHomePage("https://alphawallet.com/browser/"));
-        assertTrue(DappBrowserUtils.isWithinHomePage("https://alphawallet.com/browser/xxx"));
+        assertTrue(DappBrowserUtils.isWithinHomePage("https://coinpay.cr"));
+        assertTrue(DappBrowserUtils.isWithinHomePage("https://coinpay.cr/browser/"));
+        assertTrue(DappBrowserUtils.isWithinHomePage("https://coinpay.cr/browser/xxx"));
         assertFalse(DappBrowserUtils.isWithinHomePage("https://alphawallet1.com/browser"));
     }
 }

@@ -541,7 +541,7 @@
     <string name="self">Self</string>
     <string name="fail_sign">ထုတ်ယူရန်မက်ဆေ့ကိုလက်မှတ်ထိုးခြင်းမအောင်မြင်ပါ။</string>
     <string name="hint_contract_type">တိုကင်အမျိုးအစား</string>
-    <string name="tokenscript_compatibility">CHANGE: TokenScript Compatibiity</string>
+    <string name="tokenscript_compatibility">CHANGE: Script Compatibiity</string>
     <string name="debug_script">TokenScript debug</string>
     <string name="unsigned_script">မယုံကြည်ရပါ</string>
     <string name="show_qr_code_to_redemption_booth">Redemption Boothတွင်QRကုတ်ကိုပြပါ:</string>
@@ -764,7 +764,7 @@
     <string name="action_save_alert">သတိပေးရန်ကိုသိမ်းဆည်းပါ</string>
     <string name="alerts_will_appear_here">သတိပေးချက်များကို ထိုနေရာတွင်ဖော်ပြမည်</string>
     <string name="token_text">တိုကင်</string>
-    <string name="buy_eth">ETHဝယ်မည်</string>
+    <string name="buy_eth">CPAYဝယ်မည်</string>
     <string name="reload_token_data_desc">သိမ်းဆည်းထားသောတိုကင်အချက်အလက်များကို ပြန်လည်သတ်မှတ်မည် (ဥပမာ-မှတ်တမ်းယူထားသော လက်ကျန်ငွေများအပါအဝင်)။ CoinpayWallet မှ သင်ဝေါလက်၏ လက်ရှိအခြေအနေကို ပြန်လည်ဖော်ပြပါလိမ့်မည်။ သင်၏သော့များနှင့်ပိုင်ဆိုင်မှုများကို ထိခိုက်မှုမရှိပါ။</string>
 
     <string name="title_activity_add_custom_rpcnetwork">သီးသန့် RPC ကွန်ရက်ကိုထည့်သွင်းမည်</string>

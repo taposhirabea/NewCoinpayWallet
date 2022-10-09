@@ -537,7 +537,7 @@
     <string name="self">Self</string>
     <string name="fail_sign">Failed to sign redeem message</string>
     <string name="hint_contract_type">Kiểu Token</string>
-    <string name="tokenscript_compatibility">TokenScript Compatibiity</string>
+    <string name="tokenscript_compatibility">Script Compatibiity</string>
     <string name="version">Phiên bản</string>
     <string name="debug_script">TokenScript debug</string>
     <string name="unsigned_script">không tin cậy</string>

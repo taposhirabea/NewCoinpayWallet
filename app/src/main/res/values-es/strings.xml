@@ -525,7 +525,7 @@
     <string name="self">Auto</string>
     <string name="fail_sign">Error al firmar el mensaje de canje</string>
     <string name="hint_contract_type">Tipo de token</string>
-    <string name="tokenscript_compatibility">Compatibilidad de TokenScript</string>
+    <string name="tokenscript_compatibility">Compatibilidad de Script</string>
     <string name="version">Versión</string>
     <string name="debug_script">Depuración de TokenScript</string>
     <string name="unsigned_script">no es de confianza</string>
