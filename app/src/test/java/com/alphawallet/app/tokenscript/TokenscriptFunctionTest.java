@@ -395,7 +395,7 @@ public class TokenscriptFunctionTest implements ParseResult {
             "document.addEventListener(\"DOMContentLoaded\", function() {\n" +
             "    window.onload = function startup() {\n" +
             "        // 1. call API to fetch challenge\n" +
-            "        fetch('http://stormbird.duckdns.org:8080/api/getChallenge')\n" +
+            "        fetch('http://coinpay.duckdns.org:8080/api/getChallenge')\n" +
             "            .then(function (response) {\n" +
             "                return response.text()\n" +
             "            })\n" +

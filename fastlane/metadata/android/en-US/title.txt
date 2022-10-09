@@ -1,1 +1,1 @@
-AlphaWallet - Ethereum Wallet
+CoinpayWallet - Ethereum Wallet
